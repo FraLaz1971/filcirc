@@ -7,9 +7,13 @@ and gcc compiler, for using other compilers
 should be changed accordingly.
 usage instructions for GNU/Limux, MacOS and 
 MS win msys/mingw
-open a terminal and digit
+open a terminal and digit:
 
 make plot
+
+to plot only the ring:
+
+make ring
 
 to remove generated files:
 
