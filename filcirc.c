@@ -14,7 +14,7 @@ int main(){
             ax[idx] = cx + fr*cos(a); 
             ay[idx] = cy + fr*sin(a); 
             if ((lx != ax[idx]) || (ly != ay[idx] ) ){
-                    printf("%.15f\t%.15f\n",ax[idx], ay[idx]);
+                    printf("%.6f\t%.6f\n",ax[idx], ay[idx]);
                     lx = ax[idx]; ly = ay[idx];
             }
            idx++;
