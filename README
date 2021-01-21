@@ -1,6 +1,6 @@
 this program plots on the screen
 a filled circle with center in 100,100
-and radius = 80 pixel.
+and radius = 10 (points).
 It needs a c language compiler and gnuplot.
 The Makefile is created for GNU Make
 and gcc compiler, for using other compilers
