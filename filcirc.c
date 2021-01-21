@@ -7,7 +7,7 @@
 int main(){
     int Ma=360*10; double a_step = 1, f_step = 1, fr=0;;
     int cx = 100, cy = 100, idx=0, r = 10*10;
-    double ax[r*Ma], ay[r*Ma], a=0, lx=0, ly=0; int i=0, j=0;
+    double ax[r*Ma], ay[r*Ma], a=0, lx=0, ly=0; double i=0, j=0;
     for(i=0; i<Ma; i = i + a_step){
         for(j=0; j<r; j = j + f_step){
             a = 2*M_PI*i/Ma; fr = (r - j)/10;
