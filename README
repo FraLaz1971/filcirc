@@ -15,6 +15,22 @@ to plot only the ring:
 
 make ring
 
+top plot the top half of the shape:
+
+make top
+
+top plot the bottom half of the shape:
+
+make bottom
+
+top plot the left half of the shape:
+	
+make left
+
+top plot the right half of the shape:
+
+make right
+
 to remove generated files:
 
 make clean
